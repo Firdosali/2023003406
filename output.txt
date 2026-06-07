@@ -1,3 +1,132 @@
-Depots API Status: 401
-Vehicles API Status: 401
-Unable to fetch API data
+Depots API Status: 200
+Vehicles API Status: 200
+
+============================================================
+Depot ID: 2
+Available Mechanic Hours: 135
+Maximum Impact Score: 210
+Total Hours Used: 135
+Number of Selected Tasks: 35
+
+Selected Tasks:
+TaskID: 7e83e064-6858-491a-9a30-d827f36527e3 | Duration: 6 | Impact: 2
+TaskID: c175217c-65f8-42d8-b2f5-ed1450b23bae | Duration: 1 | Impact: 5
+TaskID: 066ae96a-a6de-4533-9f92-593d9263a1b8 | Duration: 4 | Impact: 7
+TaskID: 265af2e3-67af-4fb5-9237-4420aa21cfd9 | Duration: 5 | Impact: 8
+TaskID: 0a08de5b-9e07-43fb-930a-8da88f177493 | Duration: 6 | Impact: 6
+TaskID: 0085eef7-3899-440b-a745-ee4c70c4e168 | Duration: 5 | Impact: 6
+TaskID: 1b92a608-b31d-4496-aabe-5db2e63a0113 | Duration: 5 | Impact: 4
+TaskID: ab3d8c71-7007-4eee-99ae-68e9177287fa | Duration: 2 | Impact: 2
+TaskID: ca4efcdc-39d3-4851-afd1-7f9c1fa302b7 | Duration: 3 | Impact: 2
+TaskID: 4036a9be-414b-461d-be83-a45fc5c5dae7 | Duration: 2 | Impact: 9
+TaskID: 2677aac2-f012-4d79-8299-95eeb381d043 | Duration: 7 | Impact: 8
+TaskID: fa1d2e5f-9a36-47ae-b472-cc1d3c7ce67e | Duration: 1 | Impact: 9
+TaskID: 1b89bcca-30eb-46ef-9293-8b320872d2c0 | Duration: 3 | Impact: 5
+TaskID: cc0a5fec-4ce4-4969-801e-5ae3795b6f76 | Duration: 3 | Impact: 8
+TaskID: 230ef82f-9c7f-40c6-83a1-7ebb6f5d4b05 | Duration: 2 | Impact: 8
+TaskID: 8499a8e9-a176-47db-8304-63bed17d774d | Duration: 6 | Impact: 8
+TaskID: 6eef2e6f-c9ac-4dee-9863-1dec0f4fc4a6 | Duration: 3 | Impact: 10
+TaskID: 3bcded8f-93f4-4c0b-9663-c5598b97917e | Duration: 1 | Impact: 10
+TaskID: cfc2faa0-f6f0-4580-a789-0e0f58fc1a4b | Duration: 3 | Impact: 3
+TaskID: 117a4c47-11fe-4850-a037-c2114e98647e | Duration: 6 | Impact: 5
+TaskID: 2a5374da-535c-4e2c-b1e3-b4244e87474c | Duration: 7 | Impact: 7
+TaskID: 91bf9609-d35a-4991-9338-78667337f342 | Duration: 6 | Impact: 3
+TaskID: 85b8c762-b0a1-49f6-8c87-674b52570edd | Duration: 6 | Impact: 7
+TaskID: b60bb656-a1cc-4cf1-a210-f4e0a24d3fa4 | Duration: 1 | Impact: 3
+TaskID: f06ed945-e404-4eb3-9d30-7c6499519afa | Duration: 5 | Impact: 8
+TaskID: c497122b-aad3-44d2-ab99-26b89970f1cd | Duration: 1 | Impact: 2
+TaskID: c10405f4-9796-437d-b61b-a992f58607a4 | Duration: 3 | Impact: 6
+TaskID: 0a9bf76f-417d-4f5d-a277-da1a1ea73b57 | Duration: 7 | Impact: 8
+TaskID: 6f444988-6da9-4443-af3d-59e31816fc1e | Duration: 6 | Impact: 4
+TaskID: 02cbebd9-5134-4996-a344-37c108fe262f | Duration: 1 | Impact: 2
+TaskID: 45b3d11d-d274-4d68-80e7-ce7ec9850f66 | Duration: 6 | Impact: 4
+TaskID: 05820448-2539-4c97-8089-46c289862a60 | Duration: 4 | Impact: 9
+TaskID: b90f28e6-3da6-46c4-8548-f4f743e365f9 | Duration: 2 | Impact: 8
+TaskID: 1e6cf981-d77d-4b71-bfc2-bb4f0e43697c | Duration: 4 | Impact: 6
+TaskID: 2d168591-c286-4848-b974-4bb11d9b486d | Duration: 2 | Impact: 8
+
+============================================================
+Depot ID: 3
+Available Mechanic Hours: 188
+Maximum Impact Score: 218
+Total Hours Used: 162
+Number of Selected Tasks: 40
+
+Selected Tasks:
+TaskID: 7e83e064-6858-491a-9a30-d827f36527e3 | Duration: 6 | Impact: 2
+TaskID: c175217c-65f8-42d8-b2f5-ed1450b23bae | Duration: 1 | Impact: 5
+TaskID: 066ae96a-a6de-4533-9f92-593d9263a1b8 | Duration: 4 | Impact: 7
+TaskID: 69830bd8-00d5-4eba-a267-d61160d41975 | Duration: 3 | Impact: 1
+TaskID: 265af2e3-67af-4fb5-9237-4420aa21cfd9 | Duration: 5 | Impact: 8
+TaskID: 0a08de5b-9e07-43fb-930a-8da88f177493 | Duration: 6 | Impact: 6
+TaskID: 0085eef7-3899-440b-a745-ee4c70c4e168 | Duration: 5 | Impact: 6
+TaskID: 1b92a608-b31d-4496-aabe-5db2e63a0113 | Duration: 5 | Impact: 4
+TaskID: 5fe93859-cd94-4e01-81dd-05fd2a87667b | Duration: 5 | Impact: 2
+TaskID: ab3d8c71-7007-4eee-99ae-68e9177287fa | Duration: 2 | Impact: 2
+TaskID: ca4efcdc-39d3-4851-afd1-7f9c1fa302b7 | Duration: 3 | Impact: 2
+TaskID: 4036a9be-414b-461d-be83-a45fc5c5dae7 | Duration: 2 | Impact: 9
+TaskID: 2677aac2-f012-4d79-8299-95eeb381d043 | Duration: 7 | Impact: 8
+TaskID: fa1d2e5f-9a36-47ae-b472-cc1d3c7ce67e | Duration: 1 | Impact: 9
+TaskID: 1b89bcca-30eb-46ef-9293-8b320872d2c0 | Duration: 3 | Impact: 5
+TaskID: cc0a5fec-4ce4-4969-801e-5ae3795b6f76 | Duration: 3 | Impact: 8
+TaskID: 230ef82f-9c7f-40c6-83a1-7ebb6f5d4b05 | Duration: 2 | Impact: 8
+TaskID: a2f33a23-4946-4d04-9752-6c3c6477412f | Duration: 6 | Impact: 1
+TaskID: 8499a8e9-a176-47db-8304-63bed17d774d | Duration: 6 | Impact: 8
+TaskID: 6eef2e6f-c9ac-4dee-9863-1dec0f4fc4a6 | Duration: 3 | Impact: 10
+TaskID: 3bcded8f-93f4-4c0b-9663-c5598b97917e | Duration: 1 | Impact: 10
+TaskID: cfc2faa0-f6f0-4580-a789-0e0f58fc1a4b | Duration: 3 | Impact: 3
+TaskID: 117a4c47-11fe-4850-a037-c2114e98647e | Duration: 6 | Impact: 5
+TaskID: 2a5374da-535c-4e2c-b1e3-b4244e87474c | Duration: 7 | Impact: 7
+TaskID: 91bf9609-d35a-4991-9338-78667337f342 | Duration: 6 | Impact: 3
+TaskID: 85b8c762-b0a1-49f6-8c87-674b52570edd | Duration: 6 | Impact: 7
+TaskID: b60bb656-a1cc-4cf1-a210-f4e0a24d3fa4 | Duration: 1 | Impact: 3
+TaskID: 88114414-0441-46d2-a1bf-93fdb87d08c8 | Duration: 7 | Impact: 3
+TaskID: e489d9ca-0d27-4e10-8355-e3138f687943 | Duration: 6 | Impact: 1
+TaskID: f06ed945-e404-4eb3-9d30-7c6499519afa | Duration: 5 | Impact: 8
+TaskID: c497122b-aad3-44d2-ab99-26b89970f1cd | Duration: 1 | Impact: 2
+TaskID: c10405f4-9796-437d-b61b-a992f58607a4 | Duration: 3 | Impact: 6
+TaskID: 0a9bf76f-417d-4f5d-a277-da1a1ea73b57 | Duration: 7 | Impact: 8
+TaskID: 6f444988-6da9-4443-af3d-59e31816fc1e | Duration: 6 | Impact: 4
+TaskID: 02cbebd9-5134-4996-a344-37c108fe262f | Duration: 1 | Impact: 2
+TaskID: 45b3d11d-d274-4d68-80e7-ce7ec9850f66 | Duration: 6 | Impact: 4
+TaskID: 05820448-2539-4c97-8089-46c289862a60 | Duration: 4 | Impact: 9
+TaskID: b90f28e6-3da6-46c4-8548-f4f743e365f9 | Duration: 2 | Impact: 8
+TaskID: 1e6cf981-d77d-4b71-bfc2-bb4f0e43697c | Duration: 4 | Impact: 6
+TaskID: 2d168591-c286-4848-b974-4bb11d9b486d | Duration: 2 | Impact: 8
+
+============================================================
+Depot ID: 4
+Available Mechanic Hours: 97
+Maximum Impact Score: 186
+Total Hours Used: 97
+Number of Selected Tasks: 28
+
+Selected Tasks:
+TaskID: c175217c-65f8-42d8-b2f5-ed1450b23bae | Duration: 1 | Impact: 5
+TaskID: 066ae96a-a6de-4533-9f92-593d9263a1b8 | Duration: 4 | Impact: 7
+TaskID: 265af2e3-67af-4fb5-9237-4420aa21cfd9 | Duration: 5 | Impact: 8
+TaskID: 0a08de5b-9e07-43fb-930a-8da88f177493 | Duration: 6 | Impact: 6
+TaskID: 0085eef7-3899-440b-a745-ee4c70c4e168 | Duration: 5 | Impact: 6
+TaskID: ab3d8c71-7007-4eee-99ae-68e9177287fa | Duration: 2 | Impact: 2
+TaskID: 4036a9be-414b-461d-be83-a45fc5c5dae7 | Duration: 2 | Impact: 9
+TaskID: 2677aac2-f012-4d79-8299-95eeb381d043 | Duration: 7 | Impact: 8
+TaskID: fa1d2e5f-9a36-47ae-b472-cc1d3c7ce67e | Duration: 1 | Impact: 9
+TaskID: 1b89bcca-30eb-46ef-9293-8b320872d2c0 | Duration: 3 | Impact: 5
+TaskID: cc0a5fec-4ce4-4969-801e-5ae3795b6f76 | Duration: 3 | Impact: 8
+TaskID: 230ef82f-9c7f-40c6-83a1-7ebb6f5d4b05 | Duration: 2 | Impact: 8
+TaskID: 8499a8e9-a176-47db-8304-63bed17d774d | Duration: 6 | Impact: 8
+TaskID: 6eef2e6f-c9ac-4dee-9863-1dec0f4fc4a6 | Duration: 3 | Impact: 10
+TaskID: 3bcded8f-93f4-4c0b-9663-c5598b97917e | Duration: 1 | Impact: 10
+TaskID: cfc2faa0-f6f0-4580-a789-0e0f58fc1a4b | Duration: 3 | Impact: 3
+TaskID: 2a5374da-535c-4e2c-b1e3-b4244e87474c | Duration: 7 | Impact: 7
+TaskID: 85b8c762-b0a1-49f6-8c87-674b52570edd | Duration: 6 | Impact: 7
+TaskID: b60bb656-a1cc-4cf1-a210-f4e0a24d3fa4 | Duration: 1 | Impact: 3
+TaskID: f06ed945-e404-4eb3-9d30-7c6499519afa | Duration: 5 | Impact: 8
+TaskID: c497122b-aad3-44d2-ab99-26b89970f1cd | Duration: 1 | Impact: 2
+TaskID: c10405f4-9796-437d-b61b-a992f58607a4 | Duration: 3 | Impact: 6
+TaskID: 0a9bf76f-417d-4f5d-a277-da1a1ea73b57 | Duration: 7 | Impact: 8
+TaskID: 02cbebd9-5134-4996-a344-37c108fe262f | Duration: 1 | Impact: 2
+TaskID: 05820448-2539-4c97-8089-46c289862a60 | Duration: 4 | Impact: 9
+TaskID: b90f28e6-3da6-46c4-8548-f4f743e365f9 | Duration: 2 | Impact: 8
+TaskID: 1e6cf981-d77d-4b71-bfc2-bb4f0e43697c | Duration: 4 | Impact: 6
+TaskID: 2d168591-c286-4848-b974-4bb11d9b486d | Duration: 2 | Impact: 8
