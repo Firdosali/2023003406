@@ -1,6 +1,6 @@
 import requests
 
-TOKEN = "PASTE_ACCESS_TOKEN_HERE"
+TOKEN = input("Enter Access Token: ")
 
 headers = {
     "Authorization": f"Bearer {TOKEN}"
