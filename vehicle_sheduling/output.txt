@@ -1,10 +1,20 @@
 Vehicle Maintenance Scheduler
 
-Implemented 0/1 Knapsack approach.
+Approach:
+Implemented the 0/1 Knapsack algorithm to maximize total vehicle impact score while staying within the mechanic-hour limit of each depot.
 
-Duration = Weight
-Impact = Value
-MechanicHours = Capacity
+Mapping:
+Duration -> Weight
+Impact -> Value
+MechanicHours -> Capacity
 
-Authentication completed successfully.
-Attempted integration with Depots API and Vehicles API.
+Implementation:
+- Authentication completed successfully.
+- Attempted integration with Depot and Vehicle APIs.
+- API responses were handled using Python requests library.
+- Dynamic Programming (Knapsack) used for optimization.
+
+Files:
+- app.py
+- requirements.txt
+- screenshots/
