@@ -1,0 +1,10 @@
+Vehicle Maintenance Scheduler
+
+Implemented 0/1 Knapsack approach.
+
+Duration = Weight
+Impact = Value
+MechanicHours = Capacity
+
+Authentication completed successfully.
+Attempted integration with Depots API and Vehicles API.
