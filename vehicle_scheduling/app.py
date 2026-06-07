@@ -1,6 +1,12 @@
 import requests
 
-TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiYXVkIjoiaHR0cDovLzIwLjI0NC41Ni4xNDQvZXZhbHVhdGlvbi1zZXJ2aWNlIiwiZW1haWwiOiJmaXJkb3NhbGlsZW81NkBnbWFpbC5jb20iLCJleHAiOjE3ODA4MTU5NzQsImlhdCI6MTc4MDgxNTA3NCwiaXNzIjoiQWZmb3JkIE1lZGljYWwgVGVjaG5vbG9naWVzIFByaXZhdGUgTGltaXRlZCIsImp0aSI6IjU2MzYwNjU4LTY0YjQtNGI3MS04YmVmLTFmMWMwNjU2Mjg3OCIsImxvY2FsZSI6ImVuLUlOIiwibmFtZSI6ImttIGZpcmRvcyBhbGkiLCJzdWIiOiI5MmQyNjc3Yy1hODU4LTQ3MjQtOGU3YS02ZDUzMmFjZjViZWYifSwiZW1haWwiOiJmaXJkb3NhbGlsZW81NkBnbWFpbC5jb20iLCJuYW1lIjoia20gZmlyZG9zIGFsaSIsInJvbGxObyI6IjIwMjMwMDM0MDYiLCJhY2Nlc3NDb2RlIjoid2dLdGdaIiwiY2xpZW50SUQiOiI5MmQyNjc3Yy1hODU4LTQ3MjQtOGU3YS02ZDUzMmFjZjViZWYiLCJjbGllbnRTZWNyZXQiOiJxckhjQ0dOcmpZZmJzTWZEIn0.1CLeRcgKuihk4jtFaq7sqjTqYldGKSq7DP4QXGALEsI"
+output_file = open("output.txt", "w", encoding="utf-8")
+
+def log(text):
+    print(text)
+    output_file.write(text + "\n")
+
+TOKEN = "YOUR_ACCESS_TOKEN"
 
 headers = {
     "Authorization": f"Bearer {TOKEN}"
@@ -17,8 +23,8 @@ try:
         headers=headers
     )
 
-    print("Depots API Status:", depots_response.status_code)
-    print("Vehicles API Status:", vehicles_response.status_code)
+    log(f"Depots API Status: {depots_response.status_code}")
+    log(f"Vehicles API Status: {vehicles_response.status_code}")
 
     if depots_response.status_code == 200 and vehicles_response.status_code == 200:
 
@@ -68,24 +74,29 @@ try:
                 task["Impact"] for task in selected_tasks
             )
 
-            print("\n" + "=" * 60)
-            print(f"Depot ID: {depot['ID']}")
-            print(f"Available Mechanic Hours: {capacity}")
-            print(f"Maximum Impact Score: {total_impact}")
-            print(f"Total Hours Used: {total_duration}")
-            print(f"Number of Selected Tasks: {len(selected_tasks)}")
+            log("")
+            log("=" * 60)
+            log(f"Depot ID: {depot['ID']}")
+            log(f"Available Mechanic Hours: {capacity}")
+            log(f"Maximum Impact Score: {total_impact}")
+            log(f"Total Hours Used: {total_duration}")
+            log(f"Number of Selected Tasks: {len(selected_tasks)}")
 
-            print("\nSelected Tasks:")
+            log("")
+            log("Selected Tasks:")
 
             for task in selected_tasks:
-                print(
+                log(
                     f"TaskID: {task['TaskID']} | "
                     f"Duration: {task['Duration']} | "
                     f"Impact: {task['Impact']}"
                 )
 
     else:
-        print("Unable to fetch API data")
+        log("Unable to fetch API data")
 
 except Exception as e:
-    print("Error:", e)
+    log(f"Error: {e}")
+
+finally:
+    output_file.close()
