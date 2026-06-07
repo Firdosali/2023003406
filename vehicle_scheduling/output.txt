@@ -1,3 +1,10 @@
 Vehicle Maintenance Scheduler
 
-0/1 Knapsack approach implemented.
+Implemented using 0/1 Knapsack Algorithm.
+
+Duration -> Weight
+Impact -> Value
+MechanicHours -> Capacity
+
+Objective:
+Maximize total impact score while staying within available mechanic hours.
